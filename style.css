@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+body{
+    min-width: 100%;
+    margin: 0;
+}
+
 p{
     margin: 0;
 }
@@ -12,11 +17,6 @@ li{
     list-style: none;
 }
 
-body{
-    min-width: 1000px;
-    margin: 0;
-}
-
 header{
     margin: 20px 0px;
     display: flex;
@@ -26,7 +26,6 @@ header{
 header img{
     height: 38px;
     margin-left: 50px;
-    margin-right: 20px;
 }
 
 .search_container{
@@ -37,6 +36,7 @@ header img{
     height: 38px;
     width: 600px;
     margin: 0 auto;
+    margin-left: 20px;
 }
 
 .fa-search{
@@ -59,11 +59,11 @@ header img{
     margin-left: auto;
     width: 28px;
     border-radius: 50%;
-    background: skyblue;
-    text-align:center;
+    background: #87ceeb;
+    text-align: center;
     line-height: 28px;
-    color: white;
-    background-color: red;
+    color: #FFF;
+    background-color: #FF0000;
 }
 
 main{
@@ -72,14 +72,12 @@ main{
     top: 50px;
     left: 185px;
     width: 600px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 .results-top{
     font-size: 14px;
     color: #3C4043;
-    position: relative;
-    top: 20px;
 }
 
 .results-top span{
@@ -95,7 +93,7 @@ article p{
 }
 
 article{
-    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 main ul{
@@ -103,7 +101,6 @@ main ul{
     flex-direction: column;
     flex-wrap: wrap;
     height: 120px;
-    margin-top: 50px;
 }
 
 footer{
@@ -122,6 +119,6 @@ footer ul{
 }
 
 footer a{
-    font-size: small;
+    font-size: 13px;
     color: #5F6368;
 }
